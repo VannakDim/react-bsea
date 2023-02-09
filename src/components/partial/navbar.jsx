@@ -8,14 +8,14 @@ function Navbar(props){
     return (
             <div className="container-xxl bg-white p-0">
                 
-                <div className="container-xxl position-relative p-0 hero-header">
-                    <nav className="navbar navbar-expand-lg navbar-primary px-2 px-lg-5 py-3 py-lg-0 mb-3">
+                <div className="container-xxl position-relative p-0 hero-head">
+                    <nav className="navbar navbar-expand-lg navbar-primary px-4 px-lg-5 py-3 py-lg-0">
                         <a href="/" className="navbar-brand p-0">
                             <img src={props.brandImg} width="50" height="50" className="d-inline-block align-middle" alt="bsea logo"/>
                             <h1 className="d-inline-block align-middle m-0 brand-title">{props.brandTitle}</h1>
                         </a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                            <span className="fa fa-bars"></span>
+                            <span className="fa fa-bars text-primary"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarCollapse">
                             <div className="navbar-nav ms-auto py-0">

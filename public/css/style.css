@@ -103,7 +103,7 @@ a.lang-cn:before {
     position: relative;
     margin-left: 25px;
     padding: 35px 0;
-    color: #FFFFFF;
+    color: var(--light);
     font-weight: 500;
     outline: none;
     transition: .5s;
@@ -111,7 +111,7 @@ a.lang-cn:before {
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: #FFFFFF;
+    color: var(--light);
 }
 
 .sticky-top.navbar .navbar-nav .nav-link {
@@ -125,11 +125,12 @@ a.lang-cn:before {
 }
 
 .navbar .navbar-brand h1 {
-    color: #FFFFFF;
+    color: var(--light);
 }
 
 .navbar .navbar-brand img {
     max-height: 50px;
+    padding-left: 10p;
     transition: .5s;
 }
 
@@ -140,7 +141,7 @@ a.lang-cn:before {
 @media (max-width: 991.98px) {
     .sticky-top.navbar {
         position: relative;
-        background: #FFFFFF;
+        background: var(--light);
     }
 
     .navbar .navbar-collapse {
@@ -182,7 +183,7 @@ a.lang-cn:before {
     
     .sticky-top.navbar {
         position: fixed;
-        background: #FFFFFF;
+        background: var(--light);
     }
 
     .navbar .navbar-nav .nav-link::before {
@@ -192,7 +193,7 @@ a.lang-cn:before {
         height: 2px;
         bottom: 10px;
         left: 0;
-        background: #FFFFFF;
+        background: var(--light);
         opacity: 0;
         transition: .5s;
     }
@@ -282,7 +283,7 @@ a.lang-cn:before {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFFFFF;
+    color: var(--light);
     background: var(--primary);
     border-radius: 5px 0;
     transition: .5s;
@@ -340,7 +341,7 @@ a.lang-cn:before {
 
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
-    color: #FFFFFF;
+    color: var(--light);
     background: var(--primary);
 }
 
@@ -363,7 +364,7 @@ a.lang-cn:before {
     top: 0;
     left: 0;
     border-radius: 5px;
-    background: #FFFFFF;
+    background: var(--light);
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);
     transition: .5s;
     z-index: -1;
@@ -386,7 +387,7 @@ a.lang-cn:before {
 
 .team-item:hover h5,
 .team-item:hover p {
-    color: #FFFFFF;
+    color: var(--light);
 }
 
 .team-item img {
@@ -396,6 +397,13 @@ a.lang-cn:before {
 
 
 /*** Footer ***/
+
+
+.footer{
+    margin-top: 5px;
+}
+
+
 .footer .btn.btn-social {
     margin-right: 5px;
     width: 40px;
@@ -523,3 +531,7 @@ a.lang-cn:before {
     vertical-align: middle;
     margin-right: 10px;
 } 
+
+.height-48{
+    height: 48px;
+}
