@@ -4,7 +4,7 @@ $(function() {
         //cabeçalho
         $(".navbar-nav").children().eq(0).text("ទំព័រដើម");
         $(".navbar-nav").children().eq(1).text("អំពីយើង");
-        $(".navbar-nav").children().eq(2).text("សេវាកម្ម");
+        $(".navbar-nav").children().eq(2).text("សមាជិកភាព");
         $(".navbar-nav").children().eq(4).text("ទំនាក់ទំនង");
         $(".lang").text("KH");
         $(".lang").removeClass("change-en");
@@ -29,7 +29,7 @@ $(function() {
         //header
         $(".navbar-nav").children().eq(0).text("Home");
         $(".navbar-nav").children().eq(1).text("About");
-        $(".navbar-nav").children().eq(2).text("Service");
+        $(".navbar-nav").children().eq(2).text("Membership");
         $(".navbar-nav").children().eq(4).text("Contact");
         $(".lang").text("EN");
         $(".lang").removeClass("change-cn");

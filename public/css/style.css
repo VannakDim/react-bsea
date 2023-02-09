@@ -3,7 +3,7 @@
     --primary: #3d85a1;
     --light: #F3F6F8;
     --dark: #3d85a1;
-    --slate: #72b6bcec;
+    --slate: #aacfd2ec;
     /* --dark: #00adf1; */
 }
 
@@ -524,7 +524,6 @@ a.lang-cn:before {
 .h-about{
     padding-top: 2rem;
 }
-
 
 
 .dropdown-menu a:before {

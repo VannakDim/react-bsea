@@ -1,15 +1,18 @@
-import logo from '../logo.svg';
-import Navbar from './partial/navbar';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '../pages/home';
-import Carousel from './partial/carousel';
-import Foot from './footer';
-import pic from '../img/bsea-logo.png';
+import About from '../pages/about';
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar brandTitle="BSEA Cambodia" brandImg={pic}/>
-      <Foot />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element ={<Home />} />
+          <Route path="/about" element ={<About />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
