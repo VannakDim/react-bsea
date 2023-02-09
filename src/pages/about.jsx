@@ -11,7 +11,7 @@ const about = () => {
         <FullTitle />
         <div className="container-xxl py-6">
             <div className="container">
-                <div className="row g-4 pt-5">
+                <div className="row g-3 pt-5">
                     <div className="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
                         
                         <div className="row g-3 mb-4">
@@ -25,7 +25,7 @@ const about = () => {
                             </div>
                         </div>
 
-                        <div className="row g-3 mb-4">
+                        <div className="row g-4 mb-4">
                             <div className="col-md-6 d-flex">
                                 <div className="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
                                     <i className="fas fa-eye text-white"></i>
@@ -73,14 +73,14 @@ const about = () => {
         <div className="container-xxl py-6">
             <div className="container">
                 <div className="row g-5">
-                    <div className="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div className="d-inline-block border rounded-pill text-primary px-4 mb-3">Features</div>
                         <h2 className="mb-4">Why People Choose Us? We Are Trusted & Award Wining Agency</h2>
                         <p>បច្ចុប្បន្ននេះ BSEA មានក្រុមប្រឹក្សាប្រតិបត្តិដែលជាថ្នាក់ដឹកនាំកំពូលចំនួន ១៧រូប ដែលអញ្ជើញមក និងតំណាងពីវិស័យសំខាន់ដូច ដែលបានជម្រាបជូនខាងលើ។</p>
                         <p>ដើម្បីឲ្យការងារសម្រេចបានទៅតាមផែនការ និងការឆ្លើយតបតាមតម្រូវការរបស់សមាជិក, ស.ក.ស.អ បានបង្កើតផ្នែកចំនួន៥ដូចខាងក្រោម៖</p>
                        
                     </div>
-                    <div className="col-lg-7">
+                    <div className="col-lg-6">
                         <div className="row g-5">
                             <div className="col-sm-12 wow fadeIn" data-wow-delay="0.1s">
                                 <div className="d-flex align-items-center mb-3">
