@@ -484,7 +484,7 @@ a.lang-cn:before {
     font-size: 1rem;
 }
 .ch{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 .en{
     font-size: 0.7rem;
@@ -497,10 +497,10 @@ a.lang-cn:before {
         font-size: 1.7rem;
     }
     .ch{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .en{
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 }
 /* 
