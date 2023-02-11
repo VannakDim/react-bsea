@@ -1,9 +1,10 @@
 const carouselList=[
-    // {
-    //     id:1,
-    //     path:"carousel/c01.jpg",
-    //     description:"រូបភាពទី១"
-    // },
+    {
+        id:1,
+        active:true,
+        path:"carousel/c01.jpg",
+        description:"រូបភាពទី១"
+    },
     {
         id:2,
         path:"carousel/c02.jpg",

@@ -140,6 +140,9 @@ a.lang-cn:before {
 }
 
 @media (max-width: 991.98px) {
+    .bg-primary{
+        background-color: var(--light) !important;
+    }
     .sticky-top.navbar {
         position: relative;
         background: var(--light);
@@ -178,12 +181,13 @@ a.lang-cn:before {
         width: 100%;
         top: 0;
         left: 0;
-        border-bottom: 1px solid rgba(256, 256, 256, .2);
+        background: var(--dark);
+        border-bottom: 1px dashed rgba(256, 256, 256, .2);
         z-index: 999;
     }
     
     .sticky-top.navbar {
-        position: fixed;
+        /* position: fixed; */
         background: var(--light);
     }
 
@@ -256,6 +260,9 @@ a.lang-cn:before {
 
     .page-header {
         padding: 2rem 0;
+    }
+    .full-title h1{
+        color: var(--primary) !important;
     }
 }
 
@@ -488,6 +495,9 @@ a.lang-cn:before {
 }
 .en{
     font-size: 0.7rem;
+}
+.text-white{
+    color: var(--primary) !important;
 }
 }
 

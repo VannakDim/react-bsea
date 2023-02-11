@@ -8,25 +8,25 @@ function bseaFooter(){
 
                     <div className="col-md-6 col-lg-5">
                         <h5 className="text-white mb-4">Get In Touch</h5>
-                        <p><i className="fa fa-map-marker-alt me-3"></i><a className="text-white" href="https://goo.gl/maps/TYmLWon48gfHAK9f9">#84,#86,#88 st.Betong, Borey The Varina Sen Sok, Krang Thnong, Sen Sok, Phnom Penh, Cambodia</a></p>
-                        <p><i className="fa fa-phone-alt me-3"></i>+855 69 668 788</p>
-                        <p><i className="fa fa-envelope me-3"></i>info@bseacambodia.org</p>
+                        <p className="text-white"><i className="text-white fa fa-map-marker-alt me-3"></i><a className="text-white" href="https://goo.gl/maps/TYmLWon48gfHAK9f9">#84,#86,#88 st.Betong, Borey The Varina Sen Sok, Krang Thnong, Sen Sok, Phnom Penh, Cambodia</a></p>
+                        <p className="text-white"><i className="text-white fa fa-phone-alt me-3"></i>+855 69 668 788</p>
+                        <p className="text-white"><i className="text-white fa fa-envelope me-3"></i>info@bseacambodia.org</p>
                         <div className="d-flex pb-3">
-                            <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-twitter"></i></a>
-                            <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-facebook-f"></i></a>
-                            <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-youtube"></i></a>
-                            <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-instagram"></i></a>
-                            <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-linkedin-in"></i></a>
+                            <a className="btn btn-outline-light btn-social text-white" href=""><i className="fab fa-twitter"></i></a>
+                            <a className="btn btn-outline-light btn-social text-white" href=""><i className="fab fa-facebook-f"></i></a>
+                            <a className="btn btn-outline-light btn-social text-white" href=""><i className="fab fa-youtube"></i></a>
+                            <a className="btn btn-outline-light btn-social text-white" href=""><i className="fab fa-instagram"></i></a>
+                            <a className="btn btn-outline-light btn-social text-white" href=""><i className="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
 
                     <div className="col-md-6 col-lg-3">
                         <h5 className="text-white mb-4">Quick Link</h5>
-                        <a className="btn btn-link" href="/about">About Us</a>
-                        <a className="btn btn-link" href="/contact">Contact Us</a>
-                        <a className="btn btn-link" href="">Privacy Policy</a>
-                        <a className="btn btn-link" href="/team">Terms & Condition</a>
-                        <a className="btn btn-link" href="">Career</a>
+                        <a className="btn btn-link text-white" href="/about">About Us</a>
+                        <a className="btn btn-link text-white" href="/contact">Contact Us</a>
+                        <a className="btn btn-link text-white" href="">Privacy Policy</a>
+                        <a className="btn btn-link text-white" href="/team">Terms & Condition</a>
+                        <a className="btn btn-link text-white" href="">Career</a>
                     </div>
                     <div className="col-md-6 col-lg-4">
                         <h5 className="text-white mb-4">Newsletter</h5>
@@ -48,10 +48,10 @@ function bseaFooter(){
                             </div>
                             <div className="col-md-4 text-center text-md-end">
                                 <div className="footer-menu">
-                                    <a href="/">Home</a>
-                                    <a href="">Cookies</a>
-                                    <a href="">Help</a>
-                                    <a href="">FQAs</a>
+                                    <a className="text-white" href="/">Home</a>
+                                    <a className="text-white" href="">Cookies</a>
+                                    <a className="text-white" href="">Help</a>
+                                    <a className="text-white" href="">FQAs</a>
                                 </div>
                             </div>
                         </div>

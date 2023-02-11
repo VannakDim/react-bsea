@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/partial/navbar'
 import FullTitle from '../components/partial/fullTitle'
 import Carousel from '../components/partial/carousel'
-import Footer from '../components/footer'
+import Footer from '../components/partial/footer'
 
 export const Home = () => {
   return (
