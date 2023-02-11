@@ -540,3 +540,7 @@ a.lang-cn:before {
 .height-48{
     height: 48px;
 }
+
+#message{
+    height: 150px;
+}

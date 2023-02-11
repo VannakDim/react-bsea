@@ -18,7 +18,7 @@ function Carousel (){
         <div id="carouselExampleFade" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src={defaultCarousel} class="d-block w-100" alt="carousel photos"/>
+                    <img src={defaultCarousel} className="d-block w-100" alt="carousel photos"/>
                 </div>
                 {CarouselListPath.map((CarouselListPath)=><CarouselPhoto key={CarouselListPath.id} imgPath={CarouselListPath.path} description={CarouselListPath.description} />)}
             </div>

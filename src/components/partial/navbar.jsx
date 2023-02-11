@@ -28,7 +28,7 @@ function Navbar(){
                                         <a href="/team" className="dropdown-item">Our Team</a>
                                     </div>
                                 </div>
-                                <a href="/contact" className="nav-item nav-link">Contact</a>
+                                <NavLink to="/contact" className="nav-item nav-link {({isActive}=>(isActive?activeLink:null))}">Contact</NavLink>
                                 
                                 <div className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle lang" data-bs-toggle="dropdown">EN</a>

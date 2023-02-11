@@ -3,7 +3,6 @@ import Navbar from '../components/partial/navbar'
 import FullTitle from '../components/partial/fullTitle'
 import Carousel from '../components/partial/carousel'
 import Footer from '../components/footer'
-import aboutImg from '../img/about.png'
 
 export const Home = () => {
   return (
@@ -14,9 +13,6 @@ export const Home = () => {
       <div className="container-xxl py-6">
             <div className="container">
               <div className="row g-5 align-items-center">
-                {/* <div className="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
-                    <img className="img-fluid" src={aboutImg}/>
-                </div> */}
                 <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                   <h2 className="mb-4 h-about">អំពីសមាគមន៍</h2>
                   <p className="mb-4">សមាគមកាបូប ស្បែកជើង និងអេឡិចត្រូនិចកម្ពុជា (ស.ក.ស.អ) ជាអង្គការសមាជិកភាពដ៏លេចធ្លោមួយក្នុងព្រះរាជាណាចក្រកម្ពុជាក្នុងវិស័យដែលបានកំណត់។  
